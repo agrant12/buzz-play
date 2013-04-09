@@ -1,7 +1,11 @@
 <html>
-<title>{{ title }} | The Buzz</title>
+<title>The Buzz</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 <body>
 	<header></header>
+	{% block content%}
+	{% endblock %}
 </body>
-
+<footer>
+</footer>
 </html>
