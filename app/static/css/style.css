@@ -4,7 +4,51 @@ body{
 }
 
 header{
-	background: #000;
+	background: #ccc;
 	height: 50px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+nav{
+	margin: 20px auto;
+	width: 300px;
+}
+
+.logo{
+	float: left;
+	margin: 20px 10px;
+}
+
+.me{
+	background: #000;
+	float: right;
+	height: 50px;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0px;
+	width: 80px;
+}
+
+.me a{
+	color: #fff;
+	display: block;
+	height: 100%;
+	margin-top: 15px;
+	text-decoration: none;
+	width: 100%;
+}
+
+.container{
+	margin-top: 50px;
+}
+
+footer{
+	background: #ccc;
+	bottom: 0;
+	height: 250px;
+	position: absolute;
 	width: 100%;
 }
