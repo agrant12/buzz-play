@@ -4,16 +4,30 @@ body{
 }
 
 header{
-	background: #ccc;
-	height: 50px;
-	position: fixed;
+	background: #000;
+	border-bottom: 1px solid #666;
+	box-shadow: 0px 0px 5px 5px #666;
+	-moz-box-shadow: 0px 0px 5px 5px #666;
+	-webkit-box-shadow: 0px 0px 5px 5px #666;
+	float: right;
+	height: 80px;
+	position: absolute;
 	top: 0;
 	width: 100%;
 }
 
 nav{
-	margin: 20px auto;
-	width: 300px;
+	margin: 30px auto;
+	width: 410px;
+}
+
+nav a{
+	color: #fff;
+	font-family: Arial;
+	font-size: 18px;
+	margin: 0 25px;
+	text-decoration: none;
+	text-transform: uppercase;
 }
 
 .logo{
@@ -23,8 +37,8 @@ nav{
 
 .me{
 	background: #000;
-	float: right;
-	height: 50px;
+	border-left:  1px dashed #fff;
+	height: 80px;
 	position: absolute;
 	right: 0;
 	text-align: center;
@@ -42,13 +56,13 @@ nav{
 }
 
 .container{
-	margin-top: 50px;
+	margin-top: 100px;
 }
 
 footer{
 	background: #ccc;
 	bottom: 0;
-	height: 250px;
+	height: 150px;
 	position: absolute;
 	width: 100%;
 }

@@ -18,6 +18,11 @@ def radio():
 	return render_template("radio.html",
 		Title = "Radio")
 
+@app.route('/me/')
+def profile():
+  return render_template("users/profile.html",
+    Title = "My Profile")
+
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     form = RegistrationForm(request.form)

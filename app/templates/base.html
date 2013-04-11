@@ -1,8 +1,10 @@
 <html>
 <title>The Buzz</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/script.js') }}"></script>
 <body>
-	<header><div class="logo">Buzz Play</div><nav><a href="{{ url_for('index') }}">Index</a> | <a href="{{ url_for('explore') }}">Explore</a> | <a href="{{ url_for('radio') }}">Radio</a></nav><div class="me"><a href="#">^</a></div></header>
+	<header><div class="logo">Buzz Play</div><nav><a href="{{ url_for('explore') }}">Explore</a><a href="{{ url_for('profile') }}">My Playlist</a><a href="{{ url_for('radio') }}">Radio</a></nav><div class="me"><a href="#"></a></div></header>
 <div class="container">
 	{% block content%}
 	{% endblock %}
