@@ -30,6 +30,13 @@ nav a{
 	text-transform: uppercase;
 }
 
+.profile{
+	background: #ccc;
+	height: 500px;
+	margin-top: -500px;
+	width: 100%;
+}
+
 .logo{
 	float: left;
 	margin: 20px 10px;
@@ -60,9 +67,9 @@ nav a{
 }
 
 footer{
-	background: #ccc;
+	background: #000;
 	bottom: 0;
 	height: 150px;
-	position: absolute;
+	position: relative;
 	width: 100%;
 }
